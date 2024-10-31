@@ -3,7 +3,6 @@ using Google.Apis.Drive.v3;
 using Google.Apis.Services;
 using Google.Apis.Util.Store;
 using System;
-using System.Collections.Generic;
 using System.IO;
 using System.Threading;
 
@@ -11,8 +10,7 @@ namespace GoogleDriveAPIExample
 {
     class Program
     {
-        // Scopes define the level of access to the Google Drive
-        static string[] Scopes = { DriveService.Scope.DriveReadonly };
+        static string[] Scopes = { DriveService.Scope.Drive }; // This scope allows for file upload
         static string ApplicationName = "Google Drive API Demo";
 
         static void Main(string[] args)
@@ -25,8 +23,8 @@ namespace GoogleDriveAPIExample
                 using (var stream =
                     new FileStream("borostitusz_lab2_secrets.json", FileMode.Open, FileAccess.Read))
                 {
-                    // Path to save token response
                     string credPath = "token.json";
+                    // Reauthorize if token.json exists
                     credential = GoogleWebAuthorizationBroker.AuthorizeAsync(
                         GoogleClientSecrets.FromStream(stream).Secrets,
                         Scopes,
@@ -37,15 +35,14 @@ namespace GoogleDriveAPIExample
                     Console.WriteLine("Credential file saved to: " + credPath);
                 }
 
-                // Create Google Drive API service
                 var service = new DriveService(new BaseClientService.Initializer()
                 {
                     HttpClientInitializer = credential,
                     ApplicationName = ApplicationName,
                 });
 
-                // List files from the user's Google Drive
                 ListFiles(service);
+                UploadFile(service); // Pass service to the UploadFile method
             }
             catch (Exception ex)
             {
@@ -55,12 +52,10 @@ namespace GoogleDriveAPIExample
 
         static void ListFiles(DriveService service)
         {
-            // Define parameters of request.
             FilesResource.ListRequest listRequest = service.Files.List();
             listRequest.PageSize = 10;
             listRequest.Fields = "nextPageToken, files(id, name)";
 
-            // List files.
             var request = listRequest.Execute();
             Console.WriteLine("Files:");
             if (request.Files != null && request.Files.Count > 0)
@@ -73,6 +68,41 @@ namespace GoogleDriveAPIExample
             else
             {
                 Console.WriteLine("No files found.");
+            }
+        }
+
+        static void UploadFile(DriveService service)
+        {
+            try
+            {
+                string filePath = "testfile.txt"; // Your test file
+
+                var fileMetadata = new Google.Apis.Drive.v3.Data.File()
+                {
+                    Name = "UploadedTestFile.txt" // Name on Google Drive
+                };
+
+                using (var stream = new FileStream(filePath, FileMode.Open))
+                {
+                    var request = service.Files.Create(
+                        fileMetadata, stream, "text/plain");
+                    request.Fields = "id";
+
+                    var file = request.Upload();
+                    if (file.Status == Google.Apis.Upload.UploadStatus.Completed)
+                    {
+                        Console.WriteLine("File uploaded successfully!");
+                        Console.WriteLine("File ID: " + request.ResponseBody.Id);
+                    }
+                    else
+                    {
+                        Console.WriteLine("File upload failed: " + file.Exception.Message);
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error during file upload: " + ex.Message);
             }
         }
     }

@@ -313,11 +313,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Boros Titusz\\University\\UPT\\Y4S1\\DAC\\Lab2_googledrive\\Lab2_googledrive\\Lab2_googledrive.csproj",
+      "projectUniqueName": "C:\\Users\\Boros Titusz\\University\\UPT\\Y4S1\\DAC\\labs\\Lab2_googledrive\\Lab2_googledrive\\Lab2_googledrive.csproj",
       "projectName": "Lab2_googledrive",
-      "projectPath": "C:\\Users\\Boros Titusz\\University\\UPT\\Y4S1\\DAC\\Lab2_googledrive\\Lab2_googledrive\\Lab2_googledrive.csproj",
+      "projectPath": "C:\\Users\\Boros Titusz\\University\\UPT\\Y4S1\\DAC\\labs\\Lab2_googledrive\\Lab2_googledrive\\Lab2_googledrive.csproj",
       "packagesPath": "C:\\Users\\Boros Titusz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Boros Titusz\\University\\UPT\\Y4S1\\DAC\\Lab2_googledrive\\Lab2_googledrive\\obj\\",
+      "outputPath": "C:\\Users\\Boros Titusz\\University\\UPT\\Y4S1\\DAC\\labs\\Lab2_googledrive\\Lab2_googledrive\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

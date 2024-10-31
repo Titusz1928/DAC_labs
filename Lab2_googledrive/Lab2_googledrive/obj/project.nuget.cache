@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UrKzDS182gsmFNcaREYNKGoYonHQs0mT4VzEYk/wb4Ft+oOqAuCY6JM1lXCBPZ1rPjUzLVc9csW7nDOw8eKEWQ==",
+  "dgSpecHash": "zdGLT6/z885QF54lKFBkxu0R1VUdXShz7u6Itl4je/cY+vxYoIgwpZTC+QqLZ1+6NO0eNK6fXDE2OSFSdaYB6A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Boros Titusz\\University\\UPT\\Y4S1\\DAC\\Lab2_googledrive\\Lab2_googledrive\\Lab2_googledrive.csproj",
+  "projectFilePath": "C:\\Users\\Boros Titusz\\University\\UPT\\Y4S1\\DAC\\labs\\Lab2_googledrive\\Lab2_googledrive\\Lab2_googledrive.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Boros Titusz\\.nuget\\packages\\google.apis\\1.68.0\\google.apis.1.68.0.nupkg.sha512",
     "C:\\Users\\Boros Titusz\\.nuget\\packages\\google.apis.auth\\1.68.0\\google.apis.auth.1.68.0.nupkg.sha512",
