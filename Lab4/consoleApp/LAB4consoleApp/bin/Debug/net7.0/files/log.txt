@@ -1,0 +1,22 @@
+11/4/2024 11:18:14 PM: Opened file: C:\Users\Boros Titusz\University\UPT\Y4S1\DAC\labs\Lab4\consoleApp\LAB4consoleApp\bin\Debug\net7.0\files\multiline.txt
+11/4/2024 11:18:18 PM: Opened file: C:\Users\Boros Titusz\University\UPT\Y4S1\DAC\labs\Lab4\consoleApp\LAB4consoleApp\bin\Debug\net7.0\files\log.txt
+11/4/2024 11:18:50 PM: Line 7 updated successfully in file multiline.txt
+11/4/2024 11:19:02 PM: Opened file: C:\Users\Boros Titusz\University\UPT\Y4S1\DAC\labs\Lab4\consoleApp\LAB4consoleApp\bin\Debug\net7.0\files\multiline.txt
+11/4/2024 11:19:07 PM: Opened file: C:\Users\Boros Titusz\University\UPT\Y4S1\DAC\labs\Lab4\consoleApp\LAB4consoleApp\bin\Debug\net7.0\files\log.txt
+11/4/2024 11:20:14 PM: File 'test4.txt' created successfully at: C:\Users\Boros Titusz\University\UPT\Y4S1\DAC\labs\Lab4\consoleApp\LAB4consoleApp\bin\Debug\net7.0\files\test4.txt
+11/4/2024 11:20:39 PM: Uploaded 'test4.txt' as 'logupdate.txt' to datc_lab4_bucket.
+11/4/2024 11:21:33 PM: Line 1 updated successfully in file test4.txt
+11/4/2024 11:21:39 PM: Opened file: C:\Users\Boros Titusz\University\UPT\Y4S1\DAC\labs\Lab4\consoleApp\LAB4consoleApp\bin\Debug\net7.0\files\test4.txt
+11/4/2024 11:22:08 PM: Updated 'logupdate.txt' in datc_lab4_bucket with local file 'test4.txt'.
+11/4/2024 11:22:22 PM: Downloaded 'logupdate.txt' from datc_lab4_bucket to 'C:\Users\Boros Titusz\University\UPT\Y4S1\DAC\labs\Lab4\consoleApp\LAB4consoleApp\bin\Debug\net7.0\files\logupdate.txt'.
+11/4/2024 11:22:28 PM: Opened file: C:\Users\Boros Titusz\University\UPT\Y4S1\DAC\labs\Lab4\consoleApp\LAB4consoleApp\bin\Debug\net7.0\files\logupdate.txt
+11/4/2024 11:22:35 PM: Opened file: C:\Users\Boros Titusz\University\UPT\Y4S1\DAC\labs\Lab4\consoleApp\LAB4consoleApp\bin\Debug\net7.0\files\log.txt
+11/4/2024 11:23:14 PM: File 'test4.txt' deleted successfully.
+11/4/2024 11:23:31 PM: An error occurred during deletion: The service storage has thrown an exception. HttpStatusCode is NotFound. No such object: datc_lab4_bucket/ok.txt
+11/4/2024 11:23:39 PM: Opened file: C:\Users\Boros Titusz\University\UPT\Y4S1\DAC\labs\Lab4\consoleApp\LAB4consoleApp\bin\Debug\net7.0\files\log.txt
+11/4/2024 11:24:08 PM: Opened file: C:\Users\Boros Titusz\University\UPT\Y4S1\DAC\labs\Lab4\consoleApp\LAB4consoleApp\bin\Debug\net7.0\files\log.txt
+11/4/2024 11:24:42 PM: Opened file: C:\Users\Boros Titusz\University\UPT\Y4S1\DAC\labs\Lab4\consoleApp\LAB4consoleApp\bin\Debug\net7.0\files\test.txt
+11/4/2024 11:24:48 PM: Opened file: C:\Users\Boros Titusz\University\UPT\Y4S1\DAC\labs\Lab4\consoleApp\LAB4consoleApp\bin\Debug\net7.0\files\log.txt
+11/4/2024 11:25:09 PM: Opened file: C:\Users\Boros Titusz\University\UPT\Y4S1\DAC\labs\Lab4\consoleApp\LAB4consoleApp\bin\Debug\net7.0\files\test2.txt
+11/4/2024 11:25:24 PM: Uploaded 'test2.txt' as 'test2.txt' to datc_lab4_bucket.
+11/4/2024 11:25:35 PM: Opened file: C:\Users\Boros Titusz\University\UPT\Y4S1\DAC\labs\Lab4\consoleApp\LAB4consoleApp\bin\Debug\net7.0\files\log.txt

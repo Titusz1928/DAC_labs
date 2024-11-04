@@ -1,0 +1,4 @@
+=Test4= (by Boros Titusz)
+Finally I added a logging functionality so you know what you uploaded and modified.
+I think this is very useful.
+2024.11.04 23:20
