@@ -20,3 +20,5 @@
 11/4/2024 11:25:09 PM: Opened file: C:\Users\Boros Titusz\University\UPT\Y4S1\DAC\labs\Lab4\consoleApp\LAB4consoleApp\bin\Debug\net7.0\files\test2.txt
 11/4/2024 11:25:24 PM: Uploaded 'test2.txt' as 'test2.txt' to datc_lab4_bucket.
 11/4/2024 11:25:35 PM: Opened file: C:\Users\Boros Titusz\University\UPT\Y4S1\DAC\labs\Lab4\consoleApp\LAB4consoleApp\bin\Debug\net7.0\files\log.txt
+11/5/2024 10:25:59 AM: Opened file: C:\Users\Boros Titusz\University\UPT\Y4S1\DAC\labs\Lab4\consoleApp\LAB4consoleApp\bin\Debug\net7.0\files\log.txt
+11/5/2024 10:27:39 AM: Opened file: C:\Users\Boros Titusz\University\UPT\Y4S1\DAC\labs\Lab4\consoleApp\LAB4consoleApp\bin\Debug\net7.0\files\logo.png

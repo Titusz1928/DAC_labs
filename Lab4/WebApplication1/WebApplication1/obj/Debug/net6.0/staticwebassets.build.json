@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "Hash": "Alg3Sact2VMdpDIAWXlV4ZRO/tVHQpmPD2RIRpu3dYo=",
+  "Source": "WebApplication1",
+  "BasePath": "_content/WebApplication1",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "WebApplication1\\wwwroot",
+      "Source": "WebApplication1",
+      "ContentRoot": "C:\\Users\\Boros Titusz\\University\\UPT\\Y4S1\\DAC\\labs\\Lab4\\WebApplication1\\WebApplication1\\wwwroot\\",
+      "BasePath": "_content/WebApplication1",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Boros Titusz\\University\\UPT\\Y4S1\\DAC\\labs\\Lab4\\WebApplication1\\WebApplication1\\wwwroot\\assets\\index.html",
+      "SourceId": "WebApplication1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Boros Titusz\\University\\UPT\\Y4S1\\DAC\\labs\\Lab4\\WebApplication1\\WebApplication1\\wwwroot\\",
+      "BasePath": "_content/WebApplication1",
+      "RelativePath": "assets/index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\Boros Titusz\\University\\UPT\\Y4S1\\DAC\\labs\\Lab4\\WebApplication1\\WebApplication1\\wwwroot\\assets\\script.js",
+      "SourceId": "WebApplication1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Boros Titusz\\University\\UPT\\Y4S1\\DAC\\labs\\Lab4\\WebApplication1\\WebApplication1\\wwwroot\\",
+      "BasePath": "_content/WebApplication1",
+      "RelativePath": "assets/script.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\script.js"
+    },
+    {
+      "Identity": "C:\\Users\\Boros Titusz\\University\\UPT\\Y4S1\\DAC\\labs\\Lab4\\WebApplication1\\WebApplication1\\wwwroot\\assets\\styles.css",
+      "SourceId": "WebApplication1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Boros Titusz\\University\\UPT\\Y4S1\\DAC\\labs\\Lab4\\WebApplication1\\WebApplication1\\wwwroot\\",
+      "BasePath": "_content/WebApplication1",
+      "RelativePath": "assets/styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\styles.css"
+    }
+  ]
+}

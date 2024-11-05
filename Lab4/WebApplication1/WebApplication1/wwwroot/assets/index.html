@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Management</title>
+    <link rel="stylesheet" href="/assets/styles.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <div class="container">
+        <h1>File Management</h1>
+
+        <form id="uploadForm" class="upload-form">
+            <div class="upload-card">
+                <h2>Upload File</h2>
+                <div class="form-group">
+                    <label for="fileInput">Choose a file:</label>
+                    <input type="file" id="fileInput" required />
+                </div>
+                <div class="form-group">
+                    <label for="fileNameInput">Enter file name:</label>
+                    <input type="text" id="fileNameInput" placeholder="Enter file name" required />
+                </div>
+                <button type="submit" class="btn">Upload</button>
+            </div>
+        </form>
+
+        <!-- File Table -->
+        <table>
+            <thead>
+                <tr>
+                    <th>File Name</th>
+                    <th>Last Updated</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="fileTableBody">
+                <!-- Rows will be populated here dynamically -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="/assets/script.js"></script> <!-- Link to your JavaScript file -->
+</body>
+</html>
